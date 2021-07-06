@@ -1,0 +1,41 @@
+#d1 {
+	border-color: grey;
+	border-width: 20px;
+	/*text-align: center;*/
+	height: 100vh;
+	/*max-height: 100%;*/
+	/*width: 100%;*/
+	
+
+	border-style: solid;
+	/*max-width: fit-content;*/
+	margin-left: 10%;
+	margin-right: 10%;
+	/*background-color: black;*/
+
+}
+#p1{
+	color: blue;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-indent: 20px;
+	/*margin-top: 16px;*/
+	margin-top: 30px;
+}
+.in{
+	text-indent: 20px;
+}
+.verticalbar{
+	height: 50px;
+	width: 5px;
+	background-color: grey;
+	margin-left: 20px;
+}
+#p2{
+	display: inline-block;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+hr{
+	width: 95%;
+}
