@@ -1,0 +1,29 @@
+body {
+    display:flex;
+    margin-bottom: 30%; 
+    height:fit-content
+}
+#d1{
+    color:white;
+    margin-top:10%;
+    margin-left:10%;
+    font-size: 1.5rem;
+}
+#d3{
+color:black;
+margin-top:10%;
+font-size: 1.5rem;
+font-weight: bolder;
+}
+input{
+    color:white
+}
+#d2{
+    color:white;
+
+}
+#d3:hover{
+    /* transform: scaleX(1.2); */
+    box-shadow: 2px 0 0 2px black;
+
+}

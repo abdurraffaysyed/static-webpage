@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz.css"></link>
+    <title>Quiz</title>
+</head>
+<body style="background-image: url('https://cdn2.hubspot.net/hubfs/53/google-quiz.jpg');background-repeat: no-repeat;background-size: 100vw 200vh;background-position-x: center;margin-left: 0%;">
+<div style="margin-top:5%">
+    <button onclick="init()">Start the Quiz</button>
+</div>
+    <div id="d1">Q1)  What is the value of gravitational field strength?
+    <br>
+    <div id="d2">
+    <br>
+    
+    <input type="radio" name="q1" onclick="handleclick('1','i')"></input>
+    i) 9.81 
+    
+    <br>
+    <input type="radio" name="q1" onclick="handleclick('1','ii')"></input>
+    ii) 10
+    <br>
+    <input type="radio" name="q1" onclick="handleclick('1','iii')"></input>
+    iii) 8.81
+
+
+</div>
+<div id="d3">Q2) What is the world record of 100m race?
+    <br>
+    <div id="d2">
+        <br>
+
+        <input type="radio" name="q2" onclick="handleclick('2','i')"></input>
+        i) 9.81
+
+        <br>
+        <input type="radio" name="q2" onclick="handleclick('2','ii')"></input>
+        ii) 9.58
+        <br>
+        <input type="radio" name="q2" onclick="handleclick('2','iii')"></input>
+        iii) 10.81
+
+
+    </div>
+</div>
+<div id="d3">Q3) Who is iron-man in avengers?
+    <br>
+    <div id="d2">
+        <br>
+
+        <input type="radio" name="q3" onclick="handleclick('3','i')"></input>
+        i) Tony stark
+
+        <br>
+        <input type="radio" name="q3" onclick="handleclick('3','ii')"></input>
+        ii) Natasha
+        <br>
+        <input type="radio" name="q3" onclick="handleclick('3','iii')"></input>
+        iii) Steve
+
+
+    </div>
+</div>
+<div id="d3">Q4) In which club is cristiano ronaldo currently playing?
+    <br>
+    <div id="d2">
+        <br>
+
+        <input type="radio" name="q4" onclick="handleclick('4','i')"></input>
+        i) Juventus
+
+        <br>
+        <input type="radio" name="q4" onclick="handleclick('4','ii')"></input>
+        ii) Manchester United
+        <br>
+        <input type="radio" name="q4" onclick="handleclick('4','iii')"></input>
+        iii) Real madrid
+
+
+    </div>
+</div>
+<div id="d3">Q5) Which club has won the most champions league cup?
+    <br>
+    <div id="d2">
+        <br>
+
+        <input type="radio" name="q5" onclick="handleclick('5','i')"></input>
+        i) Real madrid
+
+        <br>
+        <input type="radio" name="q5" onclick="handleclick('5','ii')"></input>
+        ii) Barcelona
+        <br>
+        <input type="radio" name="q5" onclick="handleclick('5','iii')"></input>
+        iii) Manchester united
+
+
+    </div>
+</div>
+
+<!-- <div style="margin: 1.66%;margin">
+<input type="radio" name="q1"><p>i) 9.81</p></input>
+
+<input type="radio" name="q1"><p>ii) 10</p></input>
+<input type="radio" name="q1"><p>iii) 8.81</p></input>
+</div> -->
+
+
+<button onclick="submitted()">Submit</button>
+</div>
+<script type="text/javascript" src="Quiz.js"></script>
+</body>
+</html>
